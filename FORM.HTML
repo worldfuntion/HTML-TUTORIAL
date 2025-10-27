@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        body{
+           background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <form action="/action.php">
+        <h1>REGISTRATION FORM</h1>
+        <h4>PLEASE FILL THESE INFORMATION</h4>
+        <input type="text" placeholder="arisha">
+        <br> <br>
+        <input type="password" placeholder="password">
+        <br> <br>
+        <input type="gmail" placeholder="@gmail.com">
+        <br> <br>
+                <h1>SELECT YOUR CLASS</h1>
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+        <br> <br>
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+        <br> <br>
+        <h1> SELECT YOU SUBJECT</h1>
+        <label for="MATHS">
+            <input type="checkbox" value="MATHS" name="subject" id="101">MATHS
+            </label>
+            <br> 
+            <label for="PHYSICS">
+                <input type="checkbox" value="PHYSICS" name="subject" id="102">PHYSICS
+                </label>
+                <br>
+                <label for="CHEMESTRY">
+            <input type="checkbox" value="CHEMESTRY" name="subject" id="103">CHEMESTRY
+            </label>
+            <br>
+            <label for="BIOLOGY">
+            <input type="checkbox" value="BIOLOGY" name="subject" id="104">BIOLOGY
+            </label>
+            <br>
+            <label for="COMPUTER SCIENCE">
+            <input type="checkbox" value="COMPUTER SCIENCE" name="subject" id="105">COMPUTER SCIENCE
+        </label>
+        <br> <br>
+        <h1>SELECT YOUR CITY</h1>
+        <select name="city" id="city">
+            <option value="SELECT YOUR CITY">SELECT YOUR CITY</option>
+            <option value="BIHAR">BIHAR</option>
+            <option value="DELHI">DELHI</option>
+            <option value="MUMBAI">MUMBAI</option>
+            <option value="GUJRAT">GUJRAT</option>
+            <option value="RAJASTHAN">RAJASTHAN</option>
+            <option value="ODISHA">ODISHA</option>
+            <option value="TELANGANA">TELANGANA</option>
+            <option value="MIZORAM">MIZORAM</option>
+            <option value="PUNJAB">PUNJAB</option>
+        </select>
+        <br> <br>
+        <h1>write your valuable feedback:-</h1>
+        <textarea name="feedback" id="101" placeholder="write your feedback"rows="10" cols="100" spellcheck="true"></textarea>
+        <br> <br>
+        <h1>DO YOU WANT TO RESET THE FORM?</h1>
+        <br>
+        <input type="reset" value="reset">
+        <br> <br>
+        <h1>are you ready to submit form?</h1>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
+<!-- FORMS=used to collect dta from user for ex sign-up,log-inand contact info -->
+ <!-- form define the action need to take when form is submitted. -->
+  <!-- ex= <form action="/action.php"> -->
+    <!-- input tag:- <input type="text" placeholder="enter name"> this tag is mainly used to create box where user fill information like name, email,class etc -->
+     <!-- label is used for text description with form control -->
+      <!-- here radio is used to create choise option -->
+       <!-- here checkbox is used to create multple choice option. -->
